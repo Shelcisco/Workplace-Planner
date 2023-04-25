@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(181, 208, 223);
+    
+}
+
+h1{
+    color: white;
+    text-shadow: 2px;
+}
+
+#date {
+    font-size: 20px;
+    color: white;
+  }
+
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 248, 248);
+  }
+
+  .save_btn {
+   background-color:  rgb(181, 208, 223);
+   justify-content: center;
+   color: white;
+   font-size: medium;
+  }
+  
+  
+  .time-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .row {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+ 
+  
+  .time {
+    width: 120px;
+    font-size: 18px;
+    text-align: right;
+    color:   rgb(181, 208, 223); 
+    padding-right: 10px;
+  }
+  
+  .description {
+    width: calc(100% - 130px);
+    height: 50px;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+
+
+  

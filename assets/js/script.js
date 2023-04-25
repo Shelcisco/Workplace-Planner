@@ -17,7 +17,7 @@ timeBlocks.forEach(block => {
   const blockHour = parseInt(blockId);
   
   if (blockHour < currentHour) {
-    block.style.backgroundColor = "lighgrey";
+    block.style.backgroundColor = "lightgrey";
   } else if (blockHour === currentHour) {
     block.style.backgroundColor = "red";
   } else {
